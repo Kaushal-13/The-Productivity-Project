@@ -1,0 +1,124 @@
+/* src/components/Home.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    /* Match Kanban.css background */
+    margin: 0;
+    padding: 0;
+}
+
+select {
+    font-family: 'Arial', sans-serif;
+    font-size: 0.9em;
+    padding: 4px 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s, border-color 0.2s;
+    width: auto;
+    /* Use only required width */
+    max-width: 100%;
+    /* Ensure it doesn’t overflow container */
+    box-sizing: border-box;
+    /* Ensure padding is included in width */
+}
+
+select:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 0, 255, 0.2);
+    border-color: #3498db;
+}
+
+button {
+    font-family: 'Arial', sans-serif;
+    font-size: 0.9em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 6px 12px;
+    transition: background-color 0.2s, transform 0.2s;
+    display: inline-block;
+    /* Make sure buttons fit content */
+}
+
+button.but {
+    background-color: #3498db;
+    color: white;
+}
+
+button.but:hover {
+    background-color: #2980b9;
+    transform: translateY(-1px);
+}
+
+button.add {
+    background-color: #e74c3c;
+    color: white;
+}
+
+button.add:hover {
+    background-color: #c0392b;
+    transform: translateY(-1px);
+}
+
+.inp {
+    margin-bottom: 10px;
+}
+
+.inp input {
+    font-family: 'Arial', sans-serif;
+    font-size: 0.9em;
+    padding: 6px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    width: auto;
+    /* Use only required width */
+    max-width: 100%;
+    /* Ensure it doesn’t overflow container */
+    box-sizing: border-box;
+    /* Ensure padding is included in width */
+    transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.inp input:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 0, 255, 0.2);
+    border-color: #3498db;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    font-size: 0.9em;
+    width: fit-content;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+li:hover {
+    background-color: #f9f9f9;
+    transform: scale(1.1);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+li a {
+    text-decoration: none;
+    color: #3498db;
+    /* Match the button color */
+    transition: color 0.2s;
+}
+
+li a:hover {
+    color: #2980b9;
+}
