@@ -10,4 +10,5 @@ Currently this is a very basic prototype that just implements a Kanban board but
 It is a very basic idea which uses React for Frontend + Flask for server + sqlite for database.
 The database is organized in a very simple way.
 Suppose we cover k different frameworks then we will have k + 1 Tables. Where k tables represent each Framework + A central table which has a record of all the Current Projects.
-For Example
+
+![image](https://github.com/user-attachments/assets/b0db8c79-85f8-445b-b8ed-e67811279795)
