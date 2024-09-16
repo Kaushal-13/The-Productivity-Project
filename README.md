@@ -45,7 +45,7 @@ Backend
 ```
 
 The **API calls** are structured like this:
-
+(Note that you also need to attach the corresponding prefixes as well, I suggest looking at the files once).
 ```
 /Framework_type/Framework_id
 ```
